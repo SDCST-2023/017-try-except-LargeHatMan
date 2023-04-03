@@ -21,3 +21,16 @@ The square root of 3.0 is 1.7320508075688772
 """
 import math
 
+while True:
+    number = input("Input a Number: ")
+
+    try:
+        a = int(number)
+        if a>=0:
+            b=math.sqrt(a)
+            print(b)
+        if a<0:
+            print("There is no Square Root")
+    except:
+        print("NO!")
+
